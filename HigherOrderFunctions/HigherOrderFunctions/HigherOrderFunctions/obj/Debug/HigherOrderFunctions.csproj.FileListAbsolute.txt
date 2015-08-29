@@ -1,0 +1,6 @@
+C:\Users\mrunkle_he\Dropbox\Visual Studio\HigherOrderFunctions\HigherOrderFunctions\HigherOrderFunctions\bin\Debug\HigherOrderFunctions.exe.config
+C:\Users\mrunkle_he\Dropbox\Visual Studio\HigherOrderFunctions\HigherOrderFunctions\HigherOrderFunctions\obj\Debug\HigherOrderFunctions.csprojResolveAssemblyReference.cache
+C:\Users\mrunkle_he\Dropbox\Visual Studio\HigherOrderFunctions\HigherOrderFunctions\HigherOrderFunctions\bin\Debug\HigherOrderFunctions.exe
+C:\Users\mrunkle_he\Dropbox\Visual Studio\HigherOrderFunctions\HigherOrderFunctions\HigherOrderFunctions\bin\Debug\HigherOrderFunctions.pdb
+C:\Users\mrunkle_he\Dropbox\Visual Studio\HigherOrderFunctions\HigherOrderFunctions\HigherOrderFunctions\obj\Debug\HigherOrderFunctions.exe
+C:\Users\mrunkle_he\Dropbox\Visual Studio\HigherOrderFunctions\HigherOrderFunctions\HigherOrderFunctions\obj\Debug\HigherOrderFunctions.pdb
