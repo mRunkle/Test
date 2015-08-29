@@ -1,0 +1,9 @@
+C:\Users\acer main\Dropbox\CC\_Expiramental\AppException\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\acer main\Dropbox\CC\_Expiramental\AppException\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\acer main\Dropbox\CC\_Expiramental\AppException\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\acer main\Dropbox\CC\_Expiramental\AppException\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\acer main\Dropbox\CC\_Expiramental\AppException\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\acer main\Dropbox\CC\_Expiramental\AppException\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\linq\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\linq\obj\Debug\ConsoleApplication1.exe
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\linq\obj\Debug\ConsoleApplication1.pdb

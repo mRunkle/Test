@@ -1,0 +1,6 @@
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\ElectionPolls_2\ElectionPolls_2\bin\Debug\ElectionPolls_2.exe.config
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\ElectionPolls_2\ElectionPolls_2\bin\Debug\ElectionPolls_2.exe
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\ElectionPolls_2\ElectionPolls_2\bin\Debug\ElectionPolls_2.pdb
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\ElectionPolls_2\ElectionPolls_2\obj\Debug\ElectionPolls_2.csprojResolveAssemblyReference.cache
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\ElectionPolls_2\ElectionPolls_2\obj\Debug\ElectionPolls_2.exe
+C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls_2\ElectionPolls_2\ElectionPolls_2\obj\Debug\ElectionPolls_2.pdb
