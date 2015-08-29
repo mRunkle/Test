@@ -1,5 +1,0 @@
-def get_name()	:
-
-
-
- "Last Winner: {}".format(winnerlist[-1].get_name())
