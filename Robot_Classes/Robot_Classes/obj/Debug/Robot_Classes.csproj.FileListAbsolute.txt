@@ -1,0 +1,6 @@
+c:\users\mrunkle_he\documents\visual studio 2013\Projects\Robot_Classes\Robot_Classes\bin\Debug\Robot_Classes.exe.config
+c:\users\mrunkle_he\documents\visual studio 2013\Projects\Robot_Classes\Robot_Classes\bin\Debug\Robot_Classes.exe
+c:\users\mrunkle_he\documents\visual studio 2013\Projects\Robot_Classes\Robot_Classes\bin\Debug\Robot_Classes.pdb
+c:\users\mrunkle_he\documents\visual studio 2013\Projects\Robot_Classes\Robot_Classes\obj\Debug\Robot_Classes.csprojResolveAssemblyReference.cache
+c:\users\mrunkle_he\documents\visual studio 2013\Projects\Robot_Classes\Robot_Classes\obj\Debug\Robot_Classes.exe
+c:\users\mrunkle_he\documents\visual studio 2013\Projects\Robot_Classes\Robot_Classes\obj\Debug\Robot_Classes.pdb
