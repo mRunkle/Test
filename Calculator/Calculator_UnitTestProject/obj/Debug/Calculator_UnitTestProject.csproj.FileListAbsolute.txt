@@ -1,0 +1,7 @@
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\bin\Debug\Calculator_UnitTestProject.dll
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\bin\Debug\Calculator_UnitTestProject.pdb
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\bin\Debug\Calculator.exe
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\bin\Debug\Calculator.pdb
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\obj\Debug\Calculator_UnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\obj\Debug\Calculator_UnitTestProject.dll
+C:\Users\mrunkle_he\Dropbox\Visual Studio\Calculator\Calculator_UnitTestProject\obj\Debug\Calculator_UnitTestProject.pdb
