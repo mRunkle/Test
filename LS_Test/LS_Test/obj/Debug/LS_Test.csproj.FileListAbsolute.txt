@@ -1,6 +1,0 @@
-C:\Users\mrunkle_he\Dropbox\Visual Studio\LS_Test\LS_Test\bin\Debug\LS_Test.exe.config
-C:\Users\mrunkle_he\Dropbox\Visual Studio\LS_Test\LS_Test\bin\Debug\LS_Test.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\LS_Test\LS_Test\bin\Debug\LS_Test.pdb
-C:\Users\mrunkle_he\Dropbox\Visual Studio\LS_Test\LS_Test\obj\Debug\LS_Test.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\LS_Test\LS_Test\obj\Debug\LS_Test.pdb
-C:\Users\mrunkle_he\Dropbox\Visual Studio\LS_Test\LS_Test\obj\Debug\LS_Test.csprojResolveAssemblyReference.cache

@@ -1,7 +1,0 @@
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\obj\Debug\RobotClasses_UnitTestProject1.csprojResolveAssemblyReference.cache
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\bin\Debug\RobotClasses_UnitTestProject1.dll
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\bin\Debug\RobotClasses_UnitTestProject1.pdb
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\bin\Debug\Robot_Classes.exe
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\bin\Debug\Robot_Classes.pdb
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\obj\Debug\RobotClasses_UnitTestProject1.dll
-C:\Users\mrunkle_he\Documents\Visual Studio 2013\Projects\Robot_Classes\RobotClasses_UnitTestProject1\obj\Debug\RobotClasses_UnitTestProject1.pdb

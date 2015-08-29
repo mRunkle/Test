@@ -1,3 +1,0 @@
-C:\Users\mrunkle_he\Dropbox\Visual Studio\BankAccount_Wk1_Final\BankAccount_Wk1_Final_UML\bin\Debug\BankAccount_Wk1_Final.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\BankAccount_Wk1_Final\BankAccount_Wk1_Final_UML\bin\Debug\BankAccount_Wk1_Final.pdb
-C:\Users\mrunkle_he\Dropbox\Visual Studio\BankAccount_Wk1_Final\BankAccount_Wk1_Final_UML\obj\Debug\BankAccount_Wk1_Final_UML.modelprojResolveAssemblyReference.cache

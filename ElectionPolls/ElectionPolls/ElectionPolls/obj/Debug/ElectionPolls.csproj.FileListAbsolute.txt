@@ -1,6 +1,0 @@
-C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls\ElectionPolls\ElectionPolls\bin\Debug\ElectionPolls.exe.config
-C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls\ElectionPolls\ElectionPolls\obj\Debug\ElectionPolls.csprojResolveAssemblyReference.cache
-C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls\ElectionPolls\ElectionPolls\bin\Debug\ElectionPolls.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls\ElectionPolls\ElectionPolls\bin\Debug\ElectionPolls.pdb
-C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls\ElectionPolls\ElectionPolls\obj\Debug\ElectionPolls.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\ElectionPolls\ElectionPolls\ElectionPolls\obj\Debug\ElectionPolls.pdb

@@ -1,6 +1,0 @@
-C:\Users\mrunkle_he\Dropbox\Visual Studio\MobileNews_3\MobileNews_3\bin\Debug\MobileNews_3.exe.config
-C:\Users\mrunkle_he\Dropbox\Visual Studio\MobileNews_3\MobileNews_3\bin\Debug\MobileNews_3.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\MobileNews_3\MobileNews_3\bin\Debug\MobileNews_3.pdb
-C:\Users\mrunkle_he\Dropbox\Visual Studio\MobileNews_3\MobileNews_3\obj\Debug\MobileNews_3.csprojResolveAssemblyReference.cache
-C:\Users\mrunkle_he\Dropbox\Visual Studio\MobileNews_3\MobileNews_3\obj\Debug\MobileNews_3.exe
-C:\Users\mrunkle_he\Dropbox\Visual Studio\MobileNews_3\MobileNews_3\obj\Debug\MobileNews_3.pdb
