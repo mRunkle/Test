@@ -1,0 +1,2937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="021d6b6c-690d-4116-a68a-212697ee427e"
+  name="Calculator_2"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d783ba60-f5fe-488f-abb5-2ceb413ad31a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DCalculator_2"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c7970916-6fb7-4ef5-abc9-fbdc6b0561c7"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3cd690b2-ea61-4c52-9566-229adc5d6430"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="025e47cc-66ba-411b-9dde-efe8225e5c4a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80001e2b-dd3e-4abc-b307-50db5b1fe812">
+                <propertyInstance
+                  Id="bc9b5f17-6596-4c94-84c2-9ca46f4cda4d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1088936d-6bc8-46cf-90f0-e4a769726cb0">
+                <propertyInstance
+                  Id="6b9228d0-fdfc-4aa9-b898-bba4940ebb8b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="906b661a-62c2-42bb-8e14-1b59bee6f9d0">
+                <propertyInstance
+                  Id="538b6054-37f1-4abd-bf33-612902c2c5fb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e2b4ea6-1d95-4267-94c9-9f6149debdb8">
+                <propertyInstance
+                  Id="cf4f1745-d0b4-4bd3-8a96-3b5624e991de"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df9cb653-78f5-493c-9f36-4a5e5f3ca7d5">
+                <propertyInstance
+                  Id="08413104-da60-4ab1-861b-16cf97db72eb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="e0d71514-3368-45a0-aafd-870a2445e257"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="CallAddition"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5cbe83b7-c7e9-4246-a8c8-a2e97b4e1807"
+              LastKnownName="CallAddition"
+              LastKnownLocation="Package_1337.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b04dfd86-594e-46f0-b15e-07d0b76eafda"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3a8e517c-e076-4fbe-adf0-1bd28eacb796"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bb9c1e3c-18e4-4a97-bb9a-d3b3bbf3b75b"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c3dae57-ddd6-4178-911e-0347b8afb019"
+                  name="CallAddition"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7e032c0d-92d2-45a8-9e64-455d56d6f2af"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a0abaf63-fcf9-489f-a0e9-4d681fefa0fb"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5dc389a9-a609-4003-980b-e199fbf1eb0a"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="CallSubtraction"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="bc221562-9891-4f77-8e9e-e9a1b52e00d9"
+              LastKnownName="CallSubtraction"
+              LastKnownLocation="Package_1337.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="81b3c43d-8546-4995-aa56-597559b1394f"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a9349568-dacd-4f5c-a7ce-8cc8823a5f40"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="cc91d2f7-d530-404f-bc53-b142083181e5"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8653b84a-eeee-4c19-b57c-020cdbc18c12"
+                  name="CallSubtraction"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="72f39052-7cce-42ff-84eb-c4942b2cfea6"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="db73ce4b-3f46-4999-9a09-e0ebc84701cf"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4f056c14-bd7c-4691-8f11-e570018e15d7"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="CallMultiplication"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6d5aadda-70ef-4fba-83a6-94187d7ac01d"
+              LastKnownName="CallMultiplication"
+              LastKnownLocation="Package_1337.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b7341e5b-eeb8-410d-b43d-c2261e13d15f"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c9c879c0-dfb5-44d3-b86a-6630b0a03ac9"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="601d5e19-e8c2-458a-8649-a976f36ab727"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="62dcf9ed-38a0-4f84-9b18-44f3949e47b8"
+                  name="CallMultiplication"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a7029a39-18f8-4774-a305-d3314e610e49"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6a3cb0d4-0449-41d6-92c7-4f307dff4880"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6df911d0-29ac-437c-9c23-a72823fea3ed"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="CallDivision"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="9582ecf1-82f6-4153-b29c-b4a6cfe2f6af"
+              LastKnownName="CallDivision"
+              LastKnownLocation="Package_1337.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6ff1c709-0f17-4d64-957a-a7ab8ceb0452"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9c65a4df-ef34-401a-bc6c-0f857bb659c7"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7fadf95e-5358-4f29-af8a-5985390fed80"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="07f43726-8617-419a-91c3-2d2fa4182db9"
+                  name="CallDivision"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b1a8a268-6d83-4872-8daf-fd599ac4a61e"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="681fa9ed-90c4-4c69-bad3-d82bed3c3c83"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="76f2a078-f45e-4eaf-af75-7133261df04e"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="be22387f-ca55-406f-8733-ae40891195fc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="89941f3c-822a-4ef9-9119-600309f5410b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23db7b19-1433-4bc9-ad90-376a9970157c">
+                    <propertyInstance
+                      Id="ddb4df4a-883b-48cc-80ef-f2db9393316f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="487026ea-cf05-4f20-a116-3aa701d6b696">
+                    <propertyInstance
+                      Id="d6fc77ae-7a28-4cab-8877-7be732e116ab"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c2af18f-0160-410e-abea-dcfe96f255fa">
+                    <propertyInstance
+                      Id="f8540b9c-4391-4ad0-92f9-5b215fc51c71"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91db5c2f-8147-4cbe-a3a6-1c3bf979bdec">
+                    <propertyInstance
+                      Id="16a63991-88c3-42a1-b297-ac5540a6c0d2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62eb0d03-e3db-4255-9896-b58dffd42a91">
+                    <propertyInstance
+                      Id="b9325f6b-24d9-47ff-b3e0-62a6eb90eb9d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3694d398-1cc4-4a55-8821-bdd842b0254c">
+                    <propertyInstance
+                      Id="98e0780f-c046-4161-a5ca-c0f3df52d44f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a91235a8-ab90-4de0-80bd-cb18c7235ba4"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="b984869c-753c-45bd-b292-1598fe4c2012"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="928ffada-527e-4bc7-a611-67d7d489d23e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c0c43bf9-b99e-4aa0-9071-ee7578111248"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Calculator_2_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8effba70-93c8-4919-ab40-62295b7fd5cd"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e217269d-3576-4103-be33-ba22a96b9292"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9b41927e-72ed-4799-886c-58b8ea60dade"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f6a68cd-b9b1-415b-b1bc-69d2ed1e2e5c">
+                    <propertyInstance
+                      Id="960c7148-76ff-4237-8060-ff20e8da8623"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d81e147d-6838-4d60-9c41-cdd28d160893">
+                    <propertyInstance
+                      Id="1a5f41c9-008e-4fc2-b6e3-47609e77b939"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cc12c24-bf12-48a8-b9bd-400b346066ef">
+                    <propertyInstance
+                      Id="998dda32-1e3c-49f4-9234-ade8da6511c4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79fc5657-ba1c-4176-89c3-1debdf6ac68f">
+                    <propertyInstance
+                      Id="8f588a14-2a57-4869-b73f-d205f86e7017"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce8773d9-9a14-49da-8ae6-e55f7db1ed1c">
+                    <propertyInstance
+                      Id="e3fadd55-64e4-4824-ac87-8bc7cc260923"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a46a56c-9e00-4e18-8f51-052ea7531117">
+                    <propertyInstance
+                      Id="865e7c2b-7cf1-4396-9195-a308c943636f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5cbe83b7-c7e9-4246-a8c8-a2e97b4e1807"
+        name="CallAddition"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="542f1b9b-9b8a-4ef5-9262-aa2716e74efb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallAddition"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9baa04c1-e0a5-4209-a765-f4890fff41d3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90745599-852d-46e7-a695-1c740b7c15f3">
+                <propertyInstance
+                  Id="07d012d2-300a-4e2f-a34d-665b944bd995"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e1815c1-f8da-443a-aa5f-2148a706c8db">
+                <propertyInstance
+                  Id="f2ff63a8-853f-47c0-b2c6-e35e93dcc60d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="441af50c-8753-47a5-bad0-7a5cdced124a">
+                <propertyInstance
+                  Id="5c1c9bac-c312-4e4f-8637-755e8cfa636c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e199b867-984b-4af8-addf-d300fc3bb656">
+                <propertyInstance
+                  Id="a9b486e4-e49c-4852-8d8e-5c964a98ae37"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="60fdab36-76e2-4e9d-974b-5ccea6481783">
+                <propertyInstance
+                  Id="2ba1dff0-3b09-4286-b68f-0247ebb9c9f1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="546f20f4-ee93-4c90-ac09-ea5d615f14d7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="e911c0bc-4108-4323-8141-75f4285d9ced"
+              LastKnownName="Addition"
+              LastKnownLocation="Package_1337.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="3efec1e6-3d82-47aa-a3ec-fe2d55efc98a"
+            name="answer"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2929e527-f932-4fa9-af71-f3f3d2d3cc6f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallAddition Member%3Danswer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1e563a81-dc53-4abd-afd1-9d562a65f0fd"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8580005c-c3b8-4293-bd6d-7ee9d7c0c4fa">
+                    <propertyInstance
+                      Id="2b7c179d-3405-4443-a960-31a5677168cd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3dd1126e-57a4-4741-9776-c829b55468c4">
+                    <propertyInstance
+                      Id="054bba93-8d03-4dda-b557-6ee997740bfe"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdfb7f09-95a0-495e-876e-ccb106a4961d">
+                    <propertyInstance
+                      Id="30174c2c-9792-483c-9c88-50620011c436"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e9ee991-eb8b-4298-8592-28de05b157d6">
+                    <propertyInstance
+                      Id="ed6d7b5e-3e5d-4c0a-b149-51d59c1c333b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c9e3b3e-3583-4cf4-baee-f61960609181">
+                    <propertyInstance
+                      Id="d622a293-f041-48a1-b915-c3f70183d97b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ecc3dcd3-52c3-4529-bd75-3de28166e9e2"
+            name="AdditionCall"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc64760d-684f-4bdd-acf9-f21c08f0e2ee"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallAddition Member%3D(Name%3DAdditionCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc24de80-6f85-40f2-8251-638623749f1f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15f608a8-5c6e-4a60-bfc2-4e4e2430ef05">
+                    <propertyInstance
+                      Id="cf9e15a6-b072-4809-a534-ad83a934a7de"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6a0ed6e-8a0a-4a3c-95f7-3090037a2550">
+                    <propertyInstance
+                      Id="bd9284c6-417d-4869-8d65-41bc3bc3161d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41b9e5c7-5d0c-4295-8075-950160f5f8ec">
+                    <propertyInstance
+                      Id="f9195588-c394-49f5-b175-deb2330abd3e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dead7d8f-7560-4433-9216-6e66a3d7e9b1">
+                    <propertyInstance
+                      Id="ed3aa94c-123e-45ba-9a6c-a576ecf0a0ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="756a55f2-f15b-41b0-a664-4c70246e424d">
+                    <propertyInstance
+                      Id="4d476c79-7aec-4698-813d-4a60aa4ac3e5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddbba916-7bf0-481f-9578-cdbe51d5acd6">
+                    <propertyInstance
+                      Id="fe53baeb-c780-4aff-8c3e-b7610b54e832"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56c3a3b2-8ff3-4a8e-800b-8c7a8238f48b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="96641170-232d-4593-9aaf-de33ae6e8276"
+                  name="userInput"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1bde7c33-7541-4d2e-a83b-13f1b7a2dc9c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallAddition Member%3D(Name%3DAdditionCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserInput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Calculator_2_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bac459aa-7c81-4e36-ab3b-096f78faf01a"
+            name="CallAddition"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1c349454-72d6-4cf5-b41c-fe01e2289d0b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallAddition Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="87132e39-b3c5-4652-954a-d9cb3b14eeba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96b439ad-bded-4d7a-ba90-3adf5d329d1c">
+                    <propertyInstance
+                      Id="46634588-8786-4bd4-a2fb-3eb92b162477"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5e71d7d-1e42-453b-896f-779a1bf62390">
+                    <propertyInstance
+                      Id="2dbf55ea-24ea-4813-91a0-f0ba814dd287"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="011fb4ab-0b5a-4df4-997b-4de68f5da939">
+                    <propertyInstance
+                      Id="30fffa82-9750-44bd-8817-5482805ff2d0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6454dddd-dd8b-410d-abfd-8da47bee0bf6">
+                    <propertyInstance
+                      Id="7695fb90-fabe-48fb-aa45-4d7209ac864c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a52d5bee-81cf-4269-9a80-5436eb010b95">
+                    <propertyInstance
+                      Id="5fdf1e00-5ddb-4e9d-a98d-0b5ccd8cbb45"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c22ca04-2e5e-4156-bd8f-3527d9da325e">
+                    <propertyInstance
+                      Id="fd389a73-4241-465a-afcc-f0cb937a0f36"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e911c0bc-4108-4323-8141-75f4285d9ced"
+        name="Addition"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c0977de7-8c7a-40f4-a1d0-855b8f12b61a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DAddition"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="680baf6b-8621-4a0c-bbbb-5dd5dad3bfcc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f3f9fd2-7779-4df9-9470-e3d30cd9d855">
+                <propertyInstance
+                  Id="29d712a7-4c54-4a4c-8570-d916b0906180"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f212b085-ea61-468c-8c26-f87c45c2fec4">
+                <propertyInstance
+                  Id="279f3251-c737-462c-9e0c-f847d0746cba"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c49a1d86-df79-48c5-b548-8f9d7e6a6b6a">
+                <propertyInstance
+                  Id="ba9863a8-1c4d-4a08-9827-08afa8f9a8b7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1bec5c9d-2831-496b-bca4-e90cb261bf2c">
+                <propertyInstance
+                  Id="4a04544a-6ed8-450c-a3f0-153f48ceb2c8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ad2ad26-ed66-4910-a9a5-6dcb044c5c03">
+                <propertyInstance
+                  Id="5d1334fd-c589-4894-97ed-8de3fd00000f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="067b6294-21fd-45e9-bdef-21c9ce275dd8"
+            name="sum"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="49f4f88d-619b-4fba-b3ef-58d6f4f70968"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DAddition Member%3Dsum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1a121427-9d70-46b9-b56a-28fcb4d2236e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7dd73cf8-a46d-481a-b350-dda42a181dc0">
+                    <propertyInstance
+                      Id="96fbf3d3-59be-41d3-9b86-2587a9b50222"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de036025-3a1d-411f-88c1-139caeec3eed">
+                    <propertyInstance
+                      Id="3da720f9-f74e-48cf-9730-7fcfa16d1e18"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df35795f-50b8-484d-b851-561bc59f3940">
+                    <propertyInstance
+                      Id="a1ac8c86-f87f-4dd1-b9d8-8d8438de9f48"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e04c5ea6-04d2-4829-b60c-75232f216d3e">
+                    <propertyInstance
+                      Id="11a82fa9-470e-4c14-9e55-c58ae88e4a69"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8da81e8-109b-4b10-a567-7d321bf70bfd">
+                    <propertyInstance
+                      Id="45382060-7a16-49d9-987a-51d9d35f80a8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2e483fa1-42e9-4692-8055-20df077b7aea"
+            name="addNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b862c345-2f82-4b90-9e82-e0e83946d3fb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DAddition Member%3D(Name%3DaddNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DDecimal ArrayRank%3D1 ParentType%3DDecimal))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cb6669e8-7501-4014-bd60-c00f2a408ff7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24a306a8-48d0-4b33-b762-7dfd0ba06246">
+                    <propertyInstance
+                      Id="d59208d6-e3c6-4921-840e-5dbd743d3a31"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70bd4c79-2a74-47bf-865f-76e7a6d1f8c7">
+                    <propertyInstance
+                      Id="eb2839b1-08ca-4cd2-a8a0-7099a929dcef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d261922b-a140-46b0-a713-f49b3d5717ad">
+                    <propertyInstance
+                      Id="67a3e378-5061-4e5a-b1a9-cc6478a644c1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cf81d9e-af70-4711-98b2-ac43b2831209">
+                    <propertyInstance
+                      Id="13df28e5-60af-415a-88bc-22efbfafd7e8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da8a67ef-8878-461e-8489-06c5757a6b62">
+                    <propertyInstance
+                      Id="160f543f-30bf-4fe5-92ed-cbf1fcfd3522"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d0b4fdb-98d9-43fb-b0da-a7bf59756da9">
+                    <propertyInstance
+                      Id="1bbbd581-17c9-42af-952f-ed89cd523de4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8472594-9fc9-4f35-896c-0fc87da3f86b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1ca416b-01bc-463a-9b82-2ac672e879c2"
+                  name="input"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="56ddf6dd-49bc-40d2-bcb1-ddc2b7ddaa6a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DAddition Member%3D(Name%3DaddNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DDecimal ArrayRank%3D1 ParentType%3DDecimal))]) ParameterIdentifier%3Dinput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="97e098c1-ae2e-4ca0-b164-e2521c929986"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="34122b3f-6782-4033-b3c9-215db4ec54ff"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d1549176-5084-47dc-9854-ea3b01d327db"
+            name="Addition"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="11a60104-d421-4bc9-867e-6f12dd6e11e5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DAddition Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb49c7d0-589f-4d1d-9325-aac881209473"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1fc9d3a-258d-4f58-8621-47eea3a60177">
+                    <propertyInstance
+                      Id="b642d298-cc72-4a31-bc4c-30d1a7da63bf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a60acbbe-da2a-4053-8f90-d59283b48da5">
+                    <propertyInstance
+                      Id="a074440b-1e71-407a-8e36-00e0f9ce376c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6beb4d8f-7eb7-4471-927b-ebcfc9fd9c6b">
+                    <propertyInstance
+                      Id="3dc2bfe3-b5e9-41ae-b45f-6cff7c596a3c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34efa1b6-a613-445a-afe1-e3d38bcf32aa">
+                    <propertyInstance
+                      Id="e54143f5-6135-4eeb-b294-a31af7580a75"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd576e86-3e31-4e07-b3c5-1293028221a7">
+                    <propertyInstance
+                      Id="cabd4311-cd9d-4704-9d66-d244be471148"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d50129f-d9d6-428b-aad9-7d8eb11564ee">
+                    <propertyInstance
+                      Id="a9501b77-fa2b-48b7-a995-3c6e9470b6cc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bc221562-9891-4f77-8e9e-e9a1b52e00d9"
+        name="CallSubtraction"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="00036d98-0e05-46d0-a129-12eb821fc719"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallSubtraction"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="99de6a57-701e-4026-a109-e616fdc9834c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2a7940bd-f189-4346-bfda-6227d42b1544">
+                <propertyInstance
+                  Id="f3421bb4-492b-4c7c-8c51-d801ef0d8f10"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5f9373cc-2b8f-417d-90a2-a5b287da7523">
+                <propertyInstance
+                  Id="7254d335-d629-4d2f-b094-ca271d3e0824"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc152ce3-a1e6-481b-ad66-92396e0cca3d">
+                <propertyInstance
+                  Id="27229c70-7123-4e8d-9cd1-6a113450ff0b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eeac87d2-2a0c-47be-bfe1-529b08f73162">
+                <propertyInstance
+                  Id="00371547-8d63-47cc-a796-6e4b0f519618"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a57a72b8-3fd0-4b2c-8142-41ec99027804">
+                <propertyInstance
+                  Id="2667062c-48b6-4d0e-98cc-d2c8890a0112"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d475fcc3-f6d0-4dc7-bb6a-6b27fd22d85d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="b0b79d97-9272-4b16-80a6-d1cfba695217"
+              LastKnownName="Subtraction"
+              LastKnownLocation="Package_1337.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="323fdb91-bc94-4af4-a2ed-708ac06d6c56"
+            name="answer"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="21d91349-9d1f-4f7e-8b04-98ebf42822fd"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallSubtraction Member%3Danswer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f78d347f-bb07-4f29-968b-75c56ad20ae6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7aa8d6a-b0f7-45c8-86f0-091dc762f3d6">
+                    <propertyInstance
+                      Id="d3b674e2-51b2-49c4-8347-8153f928fb58"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="563b772a-67ff-43f7-9e50-585f9393db0a">
+                    <propertyInstance
+                      Id="a5283def-6e79-4464-b343-125cd1dd3f97"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80051a53-df47-49c6-a09e-28a00bd9efd7">
+                    <propertyInstance
+                      Id="caee6547-ba3e-4ea6-bad9-b1ddf748006a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc7eea16-2c99-4248-9fc4-9feaf57cd9ea">
+                    <propertyInstance
+                      Id="c7f28a65-d2bf-4479-8f64-8a10c41ef6ca"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="921413d9-7465-431c-a6d8-83c865a19ac6">
+                    <propertyInstance
+                      Id="80527ed2-7382-430e-9724-54e7a8617826"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="76ca03d5-72a3-4160-a86e-ec77b369ebd1"
+            name="SubtractionCall"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dac83e83-8d9b-432d-8124-b05c84fce65b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallSubtraction Member%3D(Name%3DSubtractionCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="21c5af25-fc1c-4f2a-a649-2a6c75e758d6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9496eb8c-cc4f-4ca5-8dac-20506be3cd0d">
+                    <propertyInstance
+                      Id="a886c739-c389-49cf-90b7-d194a13a2d87"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ae1df98-d6f5-455a-92c0-4003fbf374fd">
+                    <propertyInstance
+                      Id="e98de36b-8c6c-42d1-925f-54ce361c045d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6b74f41-e3df-4cf5-b198-fee50bb4cc02">
+                    <propertyInstance
+                      Id="dd7d245e-b5d5-4ed5-9eaf-51f268007d7a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a96667ef-3e22-4690-998b-17eb1d5a0452">
+                    <propertyInstance
+                      Id="3fe6eac8-0006-4e69-8861-335b66ef9065"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c79f19b0-6a30-4b4e-8c99-25bfc106cfc0">
+                    <propertyInstance
+                      Id="876d085b-b6ea-4692-a666-af7d875971a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3be272c1-c900-4398-81c6-83cdd8b9ae6a">
+                    <propertyInstance
+                      Id="8df587d6-fdbc-447c-ab89-f27b5b2f3ed4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="37808f48-3493-41f6-9de7-c6edf328adfe"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1e7464b5-5ce8-45b3-acc4-981b9118fa27"
+                  name="userInput"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bf77403f-2d94-44f1-9a75-c25bf9f3ab34"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallSubtraction Member%3D(Name%3DSubtractionCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserInput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Calculator_2_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0896d769-56e4-4779-a15c-a2b1a42293c7"
+            name="CallSubtraction"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="24247c5b-9fca-409d-8ea1-ada8b83eb972"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallSubtraction Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="494358cb-9516-4700-a87e-ed168f77151f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d59b891-4fc0-474e-89c8-d7ddb7181e11">
+                    <propertyInstance
+                      Id="ab7ed9fb-f5f3-4814-8435-61467a90063f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa17d36c-4bea-4326-8d18-fdae1be3d405">
+                    <propertyInstance
+                      Id="bf0c8e27-58c0-4206-b0e1-ed178171a76e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c57e18b-426f-4d53-ab71-1de44588cc1a">
+                    <propertyInstance
+                      Id="1cb38f7e-cb17-4d29-afbc-2fc9bafdc673"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c41da7c-cc73-43a0-baeb-bb3b1313d7ae">
+                    <propertyInstance
+                      Id="6892fbd4-bcc3-43d7-9f16-4c3ab4a59fbb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf0d2d60-4706-495d-a744-6115a2057456">
+                    <propertyInstance
+                      Id="ef1596a9-d3e7-4f18-a5af-f711c7ea7e93"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="481a3d11-8cf8-4805-abe6-2d5d5330e519">
+                    <propertyInstance
+                      Id="0e875f7a-6f40-4aa0-8907-d523055362e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b0b79d97-9272-4b16-80a6-d1cfba695217"
+        name="Subtraction"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="67e7bcdf-402c-470d-92a7-68c7fe241a00"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DSubtraction"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="257392dd-3365-429a-9f42-add0d44dd017"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="934d0f87-40f9-4296-9da0-dd2a4b952143">
+                <propertyInstance
+                  Id="22a9596c-a6ef-445e-b6cc-900bff88470c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d22eccf-2f7c-4ea6-8880-910b084190f2">
+                <propertyInstance
+                  Id="17fb57b6-57a9-49ea-963d-b2ae5442404f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="564fb91b-518a-4ac9-9c28-b133a61d38a3">
+                <propertyInstance
+                  Id="ac00ad87-32e7-4634-8021-8e975b82bea2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2249e18b-6587-4dbc-9a73-a49964f44989">
+                <propertyInstance
+                  Id="e0ce798c-9c9a-432c-85b0-729ae1af86ae"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="534869a8-c48b-429e-8534-e02a0b225b4e">
+                <propertyInstance
+                  Id="ae8ec87a-da5b-43b1-a81e-f2f5b711ba2e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="5c0ba272-ffe3-41c5-a234-b58d07fa7ec4"
+            name="difference"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="75b0c47f-3317-4767-854e-a09033d80c61"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DSubtraction Member%3Ddifference"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6488ba68-0d05-4d91-a762-236cd5249b17"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea363838-7a23-4c5e-adab-160702183e35">
+                    <propertyInstance
+                      Id="279e7a13-e976-4d12-adb7-50df6f10de5c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a90105d-b1bb-47f1-9b67-9f7a635b93d9">
+                    <propertyInstance
+                      Id="dba8bdd5-f341-4bbb-96f5-3dea51eeab6c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="617305ef-e05a-48e2-8bfa-74942ebd84c8">
+                    <propertyInstance
+                      Id="cdde52c7-8e67-439c-8a3d-37bcfb418ff6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5e51dc7-fb8b-41df-b3fe-0f2a93188799">
+                    <propertyInstance
+                      Id="ec98fff5-7913-4b75-a666-2fde5b26fac2"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ec32810-630f-426d-98b7-c2a38743b46d">
+                    <propertyInstance
+                      Id="b1370607-d13b-4f44-99ef-482bacdda4d8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="dee0f3c4-988a-4629-b519-8289ab0182e4"
+            name="subtractNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="29152d9a-4398-44da-8541-c767e01cb9d7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DSubtraction Member%3D(Name%3DsubtractNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3cd2d9ac-52a5-4c64-b86b-88022a9889a7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f8d0921-f5c3-44cc-ab8f-7a0aad5a03ae">
+                    <propertyInstance
+                      Id="336a7a6a-34ce-45f2-a904-a48c0bab2d30"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5987026-5b72-4be3-8c5f-905ab5637c71">
+                    <propertyInstance
+                      Id="79ff685f-0280-4ba3-9101-b562ae6c0183"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1085b949-7585-44e0-b735-6b7f5e76e93a">
+                    <propertyInstance
+                      Id="f4859da0-b544-40ac-bf71-5d464edbf544"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2677c36f-6378-4bf9-bb6c-e40010a0fe10">
+                    <propertyInstance
+                      Id="bef4b1ed-b614-4c6c-9b03-6806224e47a1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24d1177b-3c60-4186-b97c-be8c112a9bc4">
+                    <propertyInstance
+                      Id="9ab7343e-1f6b-48bd-ae13-9b0224de6115"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4143886f-a664-4d2d-9cf8-3d119c07e3b0">
+                    <propertyInstance
+                      Id="015d486a-1807-4216-83f3-602d04c76348"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bf00f07e-c302-4c3f-b465-04480e228ab0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1cab127e-0123-4521-ac43-0712a6547efa"
+                  name="input1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c0f72510-c285-4e94-a31f-fbc6fef07bf8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DSubtraction Member%3D(Name%3DsubtractNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dinput1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da784429-e22d-4c81-8d33-9d79bb35d9fe"
+                  name="input2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dfff1701-3882-468e-9c24-8f9480a14c2d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DSubtraction Member%3D(Name%3DsubtractNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dinput2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9d255272-ae24-4385-b386-14340e5b8d18"
+            name="Subtraction"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d645c07d-a0fe-46c6-9203-652bc720111b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DSubtraction Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c9d9cefc-671a-465e-886b-44c3ac340668"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12aa69ff-287b-4940-84ea-69d62d61ca91">
+                    <propertyInstance
+                      Id="5802366e-ac3e-40f1-ab5d-d0b2931efaed"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e4b444c-1929-4a49-93dd-6aaf7c2a5f5c">
+                    <propertyInstance
+                      Id="5b205b46-1b76-469c-afac-b62b0034f9a9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f453487-fb2e-4431-8167-cd1b0562b7ed">
+                    <propertyInstance
+                      Id="26ee5fc1-7dbe-4930-a9d6-b1b5fdb76e4e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="209a15f2-b780-4694-8b42-a79579244e17">
+                    <propertyInstance
+                      Id="bb94d919-142e-4033-b9f1-944ce4f06f09"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53aa675b-12f1-41b1-83b7-f050bc5622e4">
+                    <propertyInstance
+                      Id="bc0b8997-a10a-477a-8f92-47be157f7965"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63e3581d-88dd-4497-b20c-b9c948f6a366">
+                    <propertyInstance
+                      Id="02cef6bb-f0b3-44c5-9cee-edc10165794d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="69ae5a89-2eba-4214-a378-975ba46f1d6e"
+        name="Multiplication"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="db58a78f-29a6-419f-b9fa-148237a571dc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DMultiplication"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b8ed3a3-5d3c-4057-806b-003ee45026e4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="687bc9c3-363a-4b51-a984-de7a7417200e">
+                <propertyInstance
+                  Id="67e55e85-0bdd-4144-92d6-df9fe142b874"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7722dea7-fe75-41d3-bcef-9c14a827ee06">
+                <propertyInstance
+                  Id="6f7b50a5-8314-4d6a-8ae2-488d36deb9db"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4cddcf21-f9b9-4d4b-b140-a79903f5e431">
+                <propertyInstance
+                  Id="e4191113-32fb-4a06-a28f-ceeb97529f8d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5ae8d8a-7f7d-41e8-a1f3-3e308ee7cf1f">
+                <propertyInstance
+                  Id="51ef6457-5f77-4cf9-91c0-b3481d89e57e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce385042-9943-4c12-86fd-1df206568d7b">
+                <propertyInstance
+                  Id="4ea0bee4-5b1b-446d-996f-9acb64a74f15"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="78529833-4a2d-4c9f-b015-9eedd3555aa8"
+            name="product"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="59c17b0c-2401-4141-9593-7a9914d2a6e2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DMultiplication Member%3Dproduct"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e79512ea-9256-4c42-b71c-b2d17e1deff9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96f003d4-a209-49df-b270-897cb3e48b8c">
+                    <propertyInstance
+                      Id="ec1e1460-ea97-4784-b3fd-f067f0366dca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="787100d2-622e-4c59-8045-2749e31d6749">
+                    <propertyInstance
+                      Id="7aa5322b-c633-4d2a-8351-f44e11d0f4da"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a41a478-1bc4-46f1-b52c-5640c3ffbf4e">
+                    <propertyInstance
+                      Id="47ef6dca-2574-49fa-bde8-1c73e01859e6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27466146-a112-4d2e-b1d1-3fa7dd133cbe">
+                    <propertyInstance
+                      Id="a1644030-20a3-470c-8549-ee2e79804686"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3457c3cf-0763-41e3-94ab-bd7e54453498">
+                    <propertyInstance
+                      Id="a6d4ba4f-5397-463c-a072-48e5c7318c2a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a125a872-f5e6-43e6-9b16-3fc534dd1d5c"
+            name="multiplyNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dd55540b-9757-4586-8b1b-7e0982895577"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DMultiplication Member%3D(Name%3DmultiplyNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="76b99d58-a2a6-4e3d-86f9-bc78a49b53bb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f00f191c-8b3a-45ed-9b89-4a0b8288af75">
+                    <propertyInstance
+                      Id="851b45c2-c3d5-45c1-b1c5-a79664c0fa26"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3ab8d39-372d-4df9-a623-f47c7bd3d97b">
+                    <propertyInstance
+                      Id="c38dcddd-cb95-49fa-af7e-124260765dcf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37f354f0-1ee7-4401-b4e9-72d7c6bcd05f">
+                    <propertyInstance
+                      Id="080072ae-756c-45ed-a45f-493a396e0e53"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a315f8b3-599c-44d5-9eee-578248b29d4b">
+                    <propertyInstance
+                      Id="ae54c009-4e46-45fe-b4c1-a5df08dd5111"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8044f3e5-3b90-4cda-a369-2b303679223e">
+                    <propertyInstance
+                      Id="805473ab-6c91-4113-8b0f-49ac674edff3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a76f64fb-0129-45d8-b196-6c68e15e5ec4">
+                    <propertyInstance
+                      Id="9e2b7590-82c4-448c-a92d-1d82a42bd9bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dbb0dc0d-6533-4f04-87bd-55861c323658"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81c208ea-cde1-4468-80f6-3eea626a1b0a"
+                  name="input1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3c7ee65a-018d-4575-9341-88dedf18a011"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DMultiplication Member%3D(Name%3DmultiplyNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dinput1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="494a69a1-4f25-4981-95de-9a0e528bc813"
+                  name="input2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30fe1561-6f68-4d72-89b8-c72ce0a0fb61"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DMultiplication Member%3D(Name%3DmultiplyNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dinput2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="853a1993-4896-4f81-b6ac-480182350438"
+            name="Multiplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dda9fc53-04ca-48dc-b06b-5aeb7d234dea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DMultiplication Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4bcaa77c-86a4-4f4f-aea6-a7b902f9ffe4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48fa93ec-be7d-418d-b6ce-3636bc270303">
+                    <propertyInstance
+                      Id="eb7cac93-bd40-4af0-a179-8fadee37819d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cede0280-989b-458b-9f95-36b31979ba8b">
+                    <propertyInstance
+                      Id="999049bc-d2f3-435a-b255-721a07e59eda"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bc1e34a-d2a1-412c-b1fd-8db8e0e9050f">
+                    <propertyInstance
+                      Id="dc105251-6bf0-463d-8c55-58ef5fa40f4d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60fede02-73a0-4c24-8e72-262790227a01">
+                    <propertyInstance
+                      Id="11487d6c-4436-49a8-aab9-1be75a5a677e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24c8eaa9-527b-4e87-9cb0-a205a4f7f35a">
+                    <propertyInstance
+                      Id="626e7db7-9308-4223-8d36-a8390604a175"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61dc2ea9-12d9-495b-8a39-8accf21a2dae">
+                    <propertyInstance
+                      Id="c3006050-d4d4-4539-bbd8-e1dbf94e680d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9582ecf1-82f6-4153-b29c-b4a6cfe2f6af"
+        name="CallDivision"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b82473b7-383a-4a03-9897-cc59e50082b6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallDivision"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="65eb088d-3381-49a3-a03c-33123ce6151c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e93636c0-efea-4797-b0cf-85b9d21a59ff">
+                <propertyInstance
+                  Id="1586600f-c325-4c72-8349-d4a3eae170e1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf38535c-cedc-4bb5-af85-792a5a3ff2a9">
+                <propertyInstance
+                  Id="9f614709-2c25-429c-b319-6c490b954928"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c01590cb-c1b0-4d02-91b7-4ac83d48be7f">
+                <propertyInstance
+                  Id="4699d75b-b3d5-46eb-86eb-5e16c358a7d7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b6c4dc0-b2c3-498e-833e-af32f51359cb">
+                <propertyInstance
+                  Id="ce91d068-55d6-4932-9868-b1bd4129ead5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02e96795-bf05-42bf-88d0-f742ebb20269">
+                <propertyInstance
+                  Id="5899fd62-9305-475b-b936-bb76b06db8f3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="678f5176-d120-49ce-9211-f07804e8d8b9"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8802231f-a7d7-4dac-8d5b-7665b89abbf9"
+              LastKnownName="Division"
+              LastKnownLocation="Package_1337.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="2ae17689-3270-426d-8a72-eb1fca360c7d"
+            name="answer"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0f6617dd-55b9-4e72-82d8-0072f4e4aa43"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallDivision Member%3Danswer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="37a51b6d-ccbe-401a-8f14-e66d7b53552e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d851dab8-fb2b-4fa4-a2c6-5bf175446f83">
+                    <propertyInstance
+                      Id="486f1bfa-bfbc-4e60-8baa-eb6de1974c7a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="076ee097-608e-4b48-8c07-e2e03a1f43ae">
+                    <propertyInstance
+                      Id="11c9875d-d86b-414b-a199-e24e53abcf41"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90bc0cc5-36a6-4a0f-8316-cba34a3ca834">
+                    <propertyInstance
+                      Id="e4b8b219-6dfd-48bb-8d32-e8040b9f5fe6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cefbc29e-d2c9-48cc-99c3-4d1ef24bfbf3">
+                    <propertyInstance
+                      Id="b857dc92-b662-4146-b14a-0d8ebe9ed809"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efdb3ab9-20c7-4e13-85bf-bda774a604a4">
+                    <propertyInstance
+                      Id="6c59ab69-33ee-491f-bfa3-81bd2230ab81"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a256b811-7897-478a-a725-30bdccb00c72"
+            name="DivisionCall"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3e193218-8a57-4bd0-a81c-87855086052f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallDivision Member%3D(Name%3DDivisionCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3cd78bf9-e123-4150-98e4-510e7143fea4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b9ee034-9b02-410a-a1d3-f7c3caba630c">
+                    <propertyInstance
+                      Id="7f7943d3-55d6-4cd7-b6b3-0b293f664161"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="656bd5fc-387e-476e-ae90-1f1bc11c7ebb">
+                    <propertyInstance
+                      Id="9b046588-8462-4dce-a62a-f4a866e11a7f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73119b4a-dfc9-4d3b-83f5-6c790bf6b4c8">
+                    <propertyInstance
+                      Id="9db7b9d8-c67d-490f-b918-270e32eba6bb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c0b183b-a9c7-4fdf-8b8e-fc4ab3b63685">
+                    <propertyInstance
+                      Id="609faa11-615f-4208-a268-80f748aafad9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="149fcfec-1830-4b9b-9e7c-0100397ae06f">
+                    <propertyInstance
+                      Id="0f6e76e5-df62-42c7-9f21-2d60d6152026"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ad442cf-7aca-4817-947b-9e95c5183e6e">
+                    <propertyInstance
+                      Id="09b88c91-c064-4522-9c18-33846851e4ba"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="13e64463-31b7-46c8-b2df-98f2a4049e22"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="38397cbc-3a92-49bd-85da-aa20194e4793"
+                  name="userInput"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="df858dec-c864-42da-8fb7-3364de262ee0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallDivision Member%3D(Name%3DDivisionCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserInput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Calculator_2_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1a4de5f9-e73d-454e-b989-f6c10a82fd0c"
+            name="CallDivision"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="72f4c577-c7e7-46be-8771-f8c7aec65672"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallDivision Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a0443667-f8db-405e-bcce-442d9fdafe66"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fafdd214-902f-498f-a32b-d0a22097c3c0">
+                    <propertyInstance
+                      Id="89551e33-70e6-4d7d-af2a-c64b0c72e531"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="534e6ca7-35d2-4b7d-88db-20f542ce6d5b">
+                    <propertyInstance
+                      Id="2b34edaf-8440-4fd5-b149-7384f0d21134"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e1a8255-f872-4293-baaf-816ca330ffff">
+                    <propertyInstance
+                      Id="6460dbed-7616-4e64-90f1-d2210b2ccdc7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bd770ee-6876-40c9-9307-68e81628584c">
+                    <propertyInstance
+                      Id="c946d1dc-88a2-431b-8528-06e830f36941"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62e5fec1-8192-4b14-ad0b-816db2d7c9fe">
+                    <propertyInstance
+                      Id="f3c00bc1-1fd6-42b4-a406-535f6c921bc6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49354637-a026-4a26-8848-4e3dcfb4b1fa">
+                    <propertyInstance
+                      Id="68bac0d5-72d2-4521-8447-63d23be1d335"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8802231f-a7d7-4dac-8d5b-7665b89abbf9"
+        name="Division"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f800fc90-c800-4a25-91d1-a3c2e84c34e6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DDivision"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c57a2977-550c-4b1b-a7bf-c56936b0cea5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17b012aa-e076-4855-983e-6e2f53ad63c1">
+                <propertyInstance
+                  Id="bd97d2fa-3480-4054-b665-fc041652bf96"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de99902e-c431-4584-b62e-1e1b53d9bc57">
+                <propertyInstance
+                  Id="67565267-9633-47b8-83dd-6c0f25c5b218"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dda20f70-1ae5-497f-968d-84a7d39360a9">
+                <propertyInstance
+                  Id="f4412ab2-8e46-4365-9124-450285692470"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e09c302d-017d-4d32-8dea-cd47ee010f8d">
+                <propertyInstance
+                  Id="9364e4e6-1050-4201-b11c-6b74731b4a5e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc7b7c7d-eafa-49bd-9164-e8b30c85727e">
+                <propertyInstance
+                  Id="9d5280e8-3a7c-4ddb-b181-fb2ad863d5ed"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="10cee9bf-3e9b-42b2-8fb4-907b6deaf6d9"
+            name="quotient"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="eebd95f8-779a-4fa2-8c74-ebbd8941724b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DDivision Member%3Dquotient"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d02216de-370f-466f-9974-9ac75d02b6bc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19b1e5be-6159-44d1-a91f-be640480560e">
+                    <propertyInstance
+                      Id="8417db72-876a-42e4-81bf-70b4eac05839"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c68eb8be-0822-4487-915c-f37b8a9a17b8">
+                    <propertyInstance
+                      Id="348e42e5-02e2-4ca0-aa5a-fd385cf130c5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0e2c668-0a50-46d2-baed-b57dd3cea8a2">
+                    <propertyInstance
+                      Id="1d2b9d46-97a9-45c2-9357-d77885f56046"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92348432-a69c-428b-93cf-ea6475108297">
+                    <propertyInstance
+                      Id="786029c1-bb0c-4564-990b-18105aab36ad"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5a635ad-3d9c-4aa1-b4ab-620cc8a36e7e">
+                    <propertyInstance
+                      Id="4f392406-6c04-4ab9-bb5f-ae2fa5613a94"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d2f59671-4f2d-4c08-b950-ff8eb0c5b0dc"
+            name="divideNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f34868fd-ad69-4b33-8566-dc2cd232eced"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DDivision Member%3D(Name%3DdivideNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="17e4d888-24c6-4bb9-b6b1-6af3971550eb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ffb15ef-eb95-43b8-a461-9c4526be3247">
+                    <propertyInstance
+                      Id="a3e0a985-c933-4591-9dd6-4024f7710aea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f9c1d24-6513-4754-a860-37035b77528c">
+                    <propertyInstance
+                      Id="ff24f827-7e19-47cd-b4b9-3f6b74e0446f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="654f1c59-3878-4eb1-8044-c7cabae278cd">
+                    <propertyInstance
+                      Id="9cb48d85-f8b7-440d-82e0-162c75e789c6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe11f4cc-8b09-47d0-999b-feca9db24238">
+                    <propertyInstance
+                      Id="1108dac3-6c9b-4c44-a548-d3ed7d115585"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf432b82-2b77-4cc5-ac5f-22b4ce078d43">
+                    <propertyInstance
+                      Id="f712a284-2544-4a2e-9e8c-5e5900b99083"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="157d5f88-e964-4bc9-919d-f8f9030578c8">
+                    <propertyInstance
+                      Id="f8e2e4d6-dd20-4285-a94b-d22bd3a08564"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f93876ee-cc82-444f-8614-a07a48257f57"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="12604e9d-c088-4831-abfb-a741d474c7cb"
+                  name="input1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ce282b9d-cb73-449c-a077-c9c40dc9176f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DDivision Member%3D(Name%3DdivideNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dinput1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="628aa15b-f552-4ddf-8b1d-67dfc784a8f1"
+                  name="input2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4ac3eec2-c821-4abd-820b-07ab6c037592"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DDivision Member%3D(Name%3DdivideNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dinput2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="edcfed8e-64d2-40c5-a2f0-8b509eeada6a"
+            name="Division"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="276bd0e6-0540-4c2a-bc5f-5edd83299599"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DDivision Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="385c4556-593c-412c-b6c0-4c74a016dc0e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="040f2618-3f69-4b32-8739-c9a48e53f914">
+                    <propertyInstance
+                      Id="5a6fcde5-14c1-45c2-b10c-764e2bfd8a1b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0da138ad-c5ef-4501-8dd4-898103b9d8eb">
+                    <propertyInstance
+                      Id="de9eee0d-017d-4fb3-aa05-6280d78f7c92"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="990f13b7-13a7-411b-89f3-c3731285b486">
+                    <propertyInstance
+                      Id="2720ee22-60dc-48cb-9da1-f65641e5bebc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11793dea-930a-4d31-9406-04fdbc4826fb">
+                    <propertyInstance
+                      Id="49896a63-16f4-4a01-8b34-98ce87abcec0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b81650ec-2b38-4481-a18d-cd27c3184ec5">
+                    <propertyInstance
+                      Id="4ccc573c-7936-46a0-af26-a0975ce9f680"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99c090e8-bdb2-4548-8eeb-2611ad3dba7d">
+                    <propertyInstance
+                      Id="5dfeaf14-ec71-4837-a89b-50bf1c13942f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6d5aadda-70ef-4fba-83a6-94187d7ac01d"
+        name="CallMultiplication"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="96af2c9e-d350-4b02-b7f5-600f1e67ff78"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallMultiplication"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="af5c3ece-a9d7-4038-a7b8-c2b4ced5dc79"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78addc7d-e521-4855-a1a1-5d966bcc2051">
+                <propertyInstance
+                  Id="ecd2197b-c8cd-4f5c-9986-0b540487869d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51562086-344f-44b5-b562-fdec534a3c13">
+                <propertyInstance
+                  Id="1d4ba5f8-db67-4fdd-a881-9a67de7d6c32"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e12eee90-ea6b-481c-9d59-af5fd07f69e7">
+                <propertyInstance
+                  Id="6654d810-6acb-4a99-91ac-20119c1cb785"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83ea45fa-9608-4e2b-b268-35ef0c3c26e2">
+                <propertyInstance
+                  Id="cd5c2aaa-3bf6-4be6-b1df-60dd89deeb01"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7850fa3-f6ef-4766-b2d2-ae617956816f">
+                <propertyInstance
+                  Id="b0a30ffe-5f85-4276-9f3d-3db74409d2c0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="19be8732-11c0-45bc-94d7-d352c799af9e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="69ae5a89-2eba-4214-a378-975ba46f1d6e"
+              LastKnownName="Multiplication"
+              LastKnownLocation="Package_1337.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="9261c974-6662-4d04-9f00-979624071037"
+            name="answer"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="45ddc8f9-6809-44bc-8ef2-3faf9e1f6da7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallMultiplication Member%3Danswer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9598c683-bbf4-4913-a70b-da9fc8443156"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e76edf72-0e0a-4b26-b441-5c33d3a28e0c">
+                    <propertyInstance
+                      Id="2cf49d3c-ade1-42ac-a4b0-21821046a379"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2497a62d-0657-464d-a352-1414f26d295e">
+                    <propertyInstance
+                      Id="611f3cd7-a29c-48d0-a519-9c334461f438"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63da9a48-5ec6-4994-8167-a03cf86db679">
+                    <propertyInstance
+                      Id="542c0cf4-d054-4062-9c3d-ec9176beaae9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ac94ebb-db12-4b67-ad15-74228fce7cb6">
+                    <propertyInstance
+                      Id="c866fe6f-e843-4371-9bdc-d3291579c686"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4436e2b-a84d-422d-a50f-f474b5b3ebcf">
+                    <propertyInstance
+                      Id="760f8fd6-447e-4530-8589-03749706c15d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1337.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ae2c1525-b150-4896-b2d5-ba81ee7733cc"
+            name="MultiplicationCall"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7124fa33-1418-4625-bb71-15be7916ea58"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallMultiplication Member%3D(Name%3DMultiplicationCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3b2c600f-ccf6-4f03-9dca-3052e5762918"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="028f8af0-096d-488f-8d29-cff2cc8efce6">
+                    <propertyInstance
+                      Id="9e51970e-9d0a-4495-9453-11918be09e86"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bb8cb17-7879-4db4-84b4-87f1e9157cec">
+                    <propertyInstance
+                      Id="76284b8a-1dcb-4f28-8465-5864fcbb620f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6309f2e-1d51-4e05-8188-88911fe8e759">
+                    <propertyInstance
+                      Id="fb29a4c1-2c84-42d1-b508-f1706eb07624"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19406cd2-6699-41ed-bba9-7ceb3cf3c967">
+                    <propertyInstance
+                      Id="2e601542-d437-4237-99ca-f7ec9f50c288"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e67db2ae-ecc3-4940-871f-03af79578dc4">
+                    <propertyInstance
+                      Id="2f705535-c083-4b59-b98a-cd401732d957"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec4bebb0-1813-4d0a-b37f-034c0d98e087">
+                    <propertyInstance
+                      Id="23f52b78-3fcd-4c18-a5d0-60a600c1a3cc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="07b5be12-e765-448a-a8cd-471835f32600"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bdf407c2-dcaf-4202-bca1-b330b649e90e"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1337.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ace6bc75-b9e1-4698-8254-c6c043a7babc"
+                  name="userInput"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d2030ec2-2337-4323-ab68-59c112b8b99f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallMultiplication Member%3D(Name%3DMultiplicationCall OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserInput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Calculator_2_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="19afae09-5422-475a-b2d0-b6c24d358ffe"
+            name="CallMultiplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2044fd0d-62df-4a16-a4b9-b491dbe90955"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FCalculator_2%2FCalculator_2%2Fbin%2FDebug%2FCalculator_2.exe&quot; Namespace%3DCalculator_2 Type%3DCallMultiplication Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c51d7667-8494-462f-a21c-e74b4f6c9657"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67ea37a1-c4f4-4fa3-9242-87d28ce3494c">
+                    <propertyInstance
+                      Id="f00f786c-6ec7-4624-bd69-ab160a42d961"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11f4f6e6-b0fd-4ba9-a5ae-52e26bc6a6a0">
+                    <propertyInstance
+                      Id="0f2acfc4-bfff-4c4b-97c3-e5ead79f4de0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58e71c16-e5b0-4b1e-9e02-cdf46d2aa0d6">
+                    <propertyInstance
+                      Id="76bf1ab3-ee88-4511-9651-d5fae27810d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c02888b5-f806-4302-a1d2-af2fedfdf370">
+                    <propertyInstance
+                      Id="f722fffe-016e-424e-ab3f-50f441b22b3e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="268c5ff8-0b29-4fb7-84eb-96fad7fae42c">
+                    <propertyInstance
+                      Id="94899285-b3b5-4f73-aaa3-c5b6397ed5cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf44c2c6-3991-4130-b54e-861dc1710517">
+                    <propertyInstance
+                      Id="ec0cfcdc-c11a-4d4a-b6c3-1b625cb482e1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

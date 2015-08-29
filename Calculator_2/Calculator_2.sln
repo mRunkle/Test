@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_2", "Calculator_2\Calculator_2.csproj", "{3EE7726D-B7FB-460A-9EAB-632D5A322D5C}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Calculator_2_UML", "Calculator_2_UML\Calculator_2_UML.modelproj", "{BD12494F-41C6-4532-B1DE-8E5366A5C085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE7726D-B7FB-460A-9EAB-632D5A322D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE7726D-B7FB-460A-9EAB-632D5A322D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE7726D-B7FB-460A-9EAB-632D5A322D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE7726D-B7FB-460A-9EAB-632D5A322D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD12494F-41C6-4532-B1DE-8E5366A5C085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD12494F-41C6-4532-B1DE-8E5366A5C085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD12494F-41C6-4532-B1DE-8E5366A5C085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD12494F-41C6-4532-B1DE-8E5366A5C085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
