@@ -1,0 +1,2389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="808dc87b-ce4f-4edf-94f4-38721ae3be2c"
+  name="BankAccount_Wk1_Final"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="028de541-7522-4298-8da8-d3191838528e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBankAccount_Wk1_Final"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f1b7d372-3d88-4c4a-8fef-b54db55d28b3"
+        name="BankAccount"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dd3a22fa-25e4-44b2-bc4f-45163187aaa6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBankAccount"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cdc9b6d1-d56e-4e69-8a97-a482a84ef9e4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e730a732-a74e-48c0-9d52-6e7583ef6bdb">
+                <propertyInstance
+                  Id="7fdacfcf-93dd-4f85-82de-533995eecf5f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fed8a15-ca8e-4a6b-b6d1-8efe58ba57f6">
+                <propertyInstance
+                  Id="9462d1e4-18a7-4f26-9b81-f2a1476a66ea"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd7982e7-e4de-45d1-9cdf-873d88bb769a">
+                <propertyInstance
+                  Id="c7ba8bc5-aa04-4966-9e67-b4f2853d0c00"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5269ed12-f218-4ce0-8ac5-78fdc4c25def">
+                <propertyInstance
+                  Id="c90fc95d-0c21-4373-b418-3c9a84f31f14"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d427373-de71-4a21-a522-c51874b89621">
+                <propertyInstance
+                  Id="48326070-b2b7-4560-878f-ea2fb03e106e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="81f932d5-0b48-4645-912d-e1a0e776108f"
+            isDerived="false"
+            sourceEndRoleName="BankAccount"
+            targetEndRoleName="Customer"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="73b1807a-d940-4668-a338-928bde7f78c4"
+              LastKnownName="Customer"
+              LastKnownLocation="Package_1508.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a6ee1c85-6ad2-42ae-917f-730d458904af"
+                  name="BankAccount"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="49e54444-91c6-4e60-9285-a716da311364"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="08301dac-e540-4bdc-b03e-6fe2ec4fd68e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f1ae777-838e-4fd6-b230-aae175b7000f"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ead31fd5-665a-4330-8be8-78288e022013"
+            isDerived="false"
+            sourceEndRoleName="BankAccount"
+            targetEndRoleName="Branch"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="213cb0a4-4d34-4f63-9f8f-8eeacff197b6"
+              LastKnownName="Branch"
+              LastKnownLocation="Package_1508.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8fb2f8be-12ac-4114-b61c-b466b75d9e7e"
+                  name="BankAccount"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b5b8ef3e-15ab-4a76-a5ad-22510b10b6c5"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="85bb9f5a-bef5-4a13-9563-7676a401f79e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f19799e1-e088-4c07-a804-98dc441c7317"
+                  name="Branch"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="277db884-74b5-49c0-9d91-30ae492b508f"
+            name="accountNo"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c7887089-c3f5-46f2-82a4-b760953a091d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBankAccount Member%3DaccountNo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="be4a48e7-7d7f-44c5-a738-80a11af60f6e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2d1d3cd-99d8-4916-b404-fd7798dbe7f7">
+                    <propertyInstance
+                      Id="0ef57437-ac0c-45e1-9346-e23fb6db494c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4bfeffa-b928-42d7-9591-bb2ee839a6dc">
+                    <propertyInstance
+                      Id="49307552-df85-48ad-8dc1-cc32cbfff9a9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="812491d8-fc34-49e7-8078-3d7e9d58442b">
+                    <propertyInstance
+                      Id="e04c059c-b9fa-4557-9228-53e5192b12e2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6781d69-83c4-4832-92df-7955fd30bdd6">
+                    <propertyInstance
+                      Id="e897d93f-d8a5-4d30-8544-b4f356d9201d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b514efe1-9d4a-44cc-8809-2d0e763541ef">
+                    <propertyInstance
+                      Id="2bcf0c00-95d8-4ad2-acfc-f57469faebd7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bf8fcf27-bfb5-47e0-97ea-8d0368845bc5"
+            name="balance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3512f863-0059-4abf-a5e7-3011ddea32d2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBankAccount Member%3Dbalance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2aa70bab-7495-4edd-bcf5-b411567407a1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64497312-cf86-47ec-933f-277d449793c3">
+                    <propertyInstance
+                      Id="3cd09934-7d98-4af4-ac3d-cd95c79d20ff"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edb4a125-9da6-452f-bcac-96260d1e8a80">
+                    <propertyInstance
+                      Id="c64a28c7-d29e-4029-9b93-a189b74d1ee2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26b33dd9-c9bf-43b8-a072-0296785daf3f">
+                    <propertyInstance
+                      Id="57e05f0b-344b-4120-bd49-fc62536c0a43"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f993c8cf-d946-4a85-b8ae-f3815810a444">
+                    <propertyInstance
+                      Id="e656ac50-3674-44ee-8ae2-fb2640e9642c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0a4e8c3-dff7-4275-b890-943184254c15">
+                    <propertyInstance
+                      Id="b0f15188-3b79-41e5-95c5-17e187a3eef2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1508.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="46cee4b5-0507-45c1-b095-89491b0f8452"
+            name="returnBalance"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="462d1cb8-83c8-43d6-adb1-2873356455f8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBankAccount Member%3DreturnBalance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1a374cd2-833b-4ea9-a0ec-252f672f823b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37e24741-a9ad-414e-9943-7ee5934331a3">
+                    <propertyInstance
+                      Id="1e92b319-c26c-46a8-9934-6ec41a0f7f89"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b207e10-505b-4fe3-9a46-de56afde00cb">
+                    <propertyInstance
+                      Id="5130d2f7-fe2d-4664-9935-721a39e586f9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eeb844b7-9c74-45c0-814e-b15c23fd8a33">
+                    <propertyInstance
+                      Id="a3ffb62e-65c1-45c3-bb90-d61b3b390e16"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5e03762-6d82-4002-b530-38afb6248e91">
+                    <propertyInstance
+                      Id="e5ea0c80-20ad-4bcf-975d-272d9ec2f522"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac6c9f18-dfb9-40c2-9cf3-7a1cf1f689a5">
+                    <propertyInstance
+                      Id="93afb73f-d22c-4790-9a77-570b24f80e8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0db2941-f2aa-4132-895c-f5171fd55e88">
+                    <propertyInstance
+                      Id="b36ff8f4-659e-45c1-9c05-b5a739ab341c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85736f10-7e38-4711-9f09-582b96fdf7c0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f3fecdb8-64b1-42e7-a19b-c1aa2d4bed70"
+            name="updateBalance"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="10566529-25ed-4f6e-ac35-cc839cbcb990"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBankAccount Member%3DupdateBalance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7fae7406-e810-4ca2-8826-58a48cedef7c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15fa4066-6bb0-4781-84e5-c8e11eba4f79">
+                    <propertyInstance
+                      Id="c12eb3d1-8f76-4ec9-bfe6-715cc9d4cd95"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d850cb60-e019-4266-9e0a-f060162af4b3">
+                    <propertyInstance
+                      Id="bd70d5e1-29e7-4180-9cff-51314447ba07"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cce34ede-b623-4945-af84-dca611f6c7b5">
+                    <propertyInstance
+                      Id="8e360537-764e-4fb5-89c2-e1b08b0b97ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fef5c40-a1d1-4e3e-a2b6-aa2f130b1482">
+                    <propertyInstance
+                      Id="ab3aae5d-d415-429d-b338-923cc5169305"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98521153-ad4e-47fd-8d30-24f4f5b28143">
+                    <propertyInstance
+                      Id="54d71de4-4b58-40fc-80d3-b02372723c3f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d473b69-0a15-410e-9aa1-145751feee76">
+                    <propertyInstance
+                      Id="56de75d9-b38f-479e-ba2e-b946c5d8a4a5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c8a6f134-e2ed-4162-af9a-85edf16b5ea5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3467058f-bd0a-4b1e-b627-56d3125eacc3"
+            name="BankAccount"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="75bf3fe9-c35d-4aac-9bf2-6f2f01cbbd93"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBankAccount Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="387c06f4-1dc7-437c-b36a-448fbdf261f2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6488067-f795-433c-9653-4333f8a48282">
+                    <propertyInstance
+                      Id="20c2ebab-e882-46a6-8cce-2b2079642836"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aff95a90-ac5f-41c5-ab7e-b44576e74135">
+                    <propertyInstance
+                      Id="d897f83f-0c74-471e-9729-b9cf3b3451d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="167d817e-12ee-4ac4-9a28-ebb5c6744af3">
+                    <propertyInstance
+                      Id="eeb9ecb9-a910-46f0-b116-5b0c9151db01"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07466192-eae4-4501-86c8-a7e2f46e9c6f">
+                    <propertyInstance
+                      Id="1a4afd50-830d-49ff-a451-9eae980a63fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b305a98f-dbc5-4baf-8796-5c354845a34f">
+                    <propertyInstance
+                      Id="1dca0833-c3bf-4572-a429-18d1a6d6ba91"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b55fbbe-5037-4378-a336-78837848efdb">
+                    <propertyInstance
+                      Id="d94089dd-2ffb-49fc-a34c-29d5de98e620"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="73b1807a-d940-4668-a338-928bde7f78c4"
+        name="Customer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3f41243d-7c0f-46e1-b015-445990a0d1a1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bd81bb8a-0376-4a3e-9e81-51fc2956ae58"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdb5899a-0b20-429a-a2ea-f8f8eebb5018">
+                <propertyInstance
+                  Id="85a0058d-8a3b-4cc5-82a6-253a82243684"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de222d77-dedd-4a35-a9d8-1ccb448527a4">
+                <propertyInstance
+                  Id="d88796bd-e451-47e8-b731-d5d4a296ea3c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acbc0d2e-c2e8-43ce-9fea-dd7a071ec4b3">
+                <propertyInstance
+                  Id="5594a54e-cd87-4382-b3ef-6e90288560bb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f3027c37-016f-4027-b031-0983069af1f3">
+                <propertyInstance
+                  Id="bea8cdec-d91e-405f-95bd-3484b487a21b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc3d356a-ecd3-4e1b-85ac-a9be599be7a3">
+                <propertyInstance
+                  Id="b0b9f15a-0925-4c49-934c-40bf3d863eef"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4f0685f2-a2db-47f8-bb86-98f8a8e1eb9e"
+            name="name"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="19f7e8b1-fdf1-4772-9dfc-b4edc296d6f9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer Member%3Dname"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0cc076b0-c3a7-4489-bb03-0d9b4a2a899e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8df8cf3-e0ab-4f76-ab8c-b27482a5c559">
+                    <propertyInstance
+                      Id="102137ec-dc33-43b6-8ee8-216d9bed13d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a71ae3de-4a6f-4940-9787-7ba97d58aa20">
+                    <propertyInstance
+                      Id="af9b5f88-4bbe-44d4-b618-1275b823f720"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e11ab2b4-8ef2-48d9-9b27-34dcc6190732">
+                    <propertyInstance
+                      Id="12907336-52c5-47a0-80a1-01c8c900e381"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ede9937-b139-4060-aa8b-3ebb8d930a93">
+                    <propertyInstance
+                      Id="c20b14c2-32c0-4ab9-8077-20f0535aa806"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4d11270-6352-4972-aa6a-8c46c57a4a55">
+                    <propertyInstance
+                      Id="a777143a-7958-40c0-bbda-83355ba6a103"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f501b6fc-72da-4c66-8041-68547ab73445"
+            name="address"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="83d2998f-ded4-4792-9f06-c5fd38961b58"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer Member%3Daddress"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="be01d45e-08d2-408c-bbf4-0ac58821da12"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e794d706-7b24-4a09-93c7-b358a044e8bb">
+                    <propertyInstance
+                      Id="5a9240b9-4d54-413a-8b13-54e7d5872024"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87a80469-5691-43c0-ba93-92c5e422c568">
+                    <propertyInstance
+                      Id="4b33b60f-8f60-42f5-92e9-8d00d13f8776"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="524193ab-2a32-4b74-b403-f632f49eb8ca">
+                    <propertyInstance
+                      Id="697d7bf4-a611-4c03-a395-d5f9dafc31c3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ed14699-31af-4726-acae-6d40fce8a1ef">
+                    <propertyInstance
+                      Id="0adfd4fa-5e5a-4cee-948c-219c82cc9753"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1792e48f-f5f4-4c4c-bddb-17f3a6c743f1">
+                    <propertyInstance
+                      Id="0c509744-ad60-450c-9827-2093cfa4a977"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a497a3dc-fca6-48aa-b100-c72ce3958983"
+            name="getName"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="28a4d587-e587-48f0-bffc-154eefe41b44"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer Member%3DgetName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62b1a1e9-33e5-481d-bb08-8a95b029f337"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48605a08-79a4-4b37-8ec3-380fca5159a7">
+                    <propertyInstance
+                      Id="cec87472-3cb2-41d5-b726-cf4bdcbdd65b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03dfaeca-b35b-42d7-a409-5ce800cf6383">
+                    <propertyInstance
+                      Id="9c60fd56-bdac-4d6e-9db7-c5f097fed0c6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c5dfae4-abf0-437a-8a09-7a91b1fc5101">
+                    <propertyInstance
+                      Id="7f263f49-9bad-4247-a9f8-ef5321de6c83"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="093b188e-078c-4833-88d0-d6a8c8536242">
+                    <propertyInstance
+                      Id="96daa9ed-5f56-40a4-8430-dedf599a265d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b51977c-b099-4f95-9809-2173f9c85a5d">
+                    <propertyInstance
+                      Id="e0271408-4d02-431c-9960-b14761d1f0bf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c8e9c4b-1fd4-4dad-a557-29540305fa1c">
+                    <propertyInstance
+                      Id="7975532f-3ba4-43cd-9e64-eca7835c9e61"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="273739a8-7512-48b8-8683-3728f0a2b410"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="61f43f2f-0e49-48fd-aa40-7ca3bb11eed3"
+            name="setName"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e7b3c0c2-479a-411b-9bc2-e6b4a34c109c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer Member%3D(Name%3DsetName OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb9d288a-735f-4777-9484-298ecf9f9847"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39d42d0a-8979-4706-a1ff-c382304a203d">
+                    <propertyInstance
+                      Id="80ff8149-462e-455e-b8cc-6b6d3a735ee7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d8c83c0-8b2c-4f16-9d79-194a2fff7708">
+                    <propertyInstance
+                      Id="0eb43b74-bcc4-4013-a0c5-ede692941b7b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc16897b-0ee3-4cd7-b733-feb410003288">
+                    <propertyInstance
+                      Id="35f6ea95-a82d-4620-87a7-49b16d6cb64f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcfd8c28-0c47-4456-b554-5f8619ec61b6">
+                    <propertyInstance
+                      Id="7cf57f14-de75-44b6-ba10-823352723c45"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ce53bfe-d683-4703-8111-7a97bcb60ae7">
+                    <propertyInstance
+                      Id="dd3d96c3-22c8-4376-bcdb-29c5c188268f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aab67bfa-cca8-4a91-a2d6-54fe9a1a2659">
+                    <propertyInstance
+                      Id="c3c5ed7b-d194-41f4-9e4e-f5bce616d985"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="934d696a-43c9-4b77-9f4f-7787d246a2ed"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aba98652-f642-4da8-8920-e2bdcb0f5d22"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a359797f-dfec-4d84-a786-abd8f5c363f4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer Member%3D(Name%3DsetName OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="22b675cd-0195-45a4-a69d-5ffa12ea7f74"
+            name="Customer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="af608cc9-c850-4479-bffd-a62836dc0146"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCustomer Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8d3249ae-7629-4f68-8cda-b7234eef496f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65f67ce0-5e77-4fa8-bd5d-053f870e8217">
+                    <propertyInstance
+                      Id="6e49b214-6238-4a97-b5e5-9e06503e1ce8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2ac2c82-f265-4ad4-bebd-9e4c31dba7f7">
+                    <propertyInstance
+                      Id="69db25f8-4b1c-46e3-8aa5-27f362ea6c5f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb94fb1d-68ed-47e2-8333-06c4a9befa87">
+                    <propertyInstance
+                      Id="c79ed8c8-2bd0-4c9f-85a4-143907ded582"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc6147e4-11e0-48c7-81be-f067724b6120">
+                    <propertyInstance
+                      Id="550f629f-405a-4d1d-9a40-1c26435a5a25"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17ad051f-35a5-40a3-9ca5-c534b36e01db">
+                    <propertyInstance
+                      Id="b76e67ce-e9f2-425a-9fa5-b6b3a8065e90"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b863367b-a866-424c-917c-e2d81b3d5daa">
+                    <propertyInstance
+                      Id="5a6abb8f-202f-467b-8ff7-a709a93cc5df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="213cb0a4-4d34-4f63-9f8f-8eeacff197b6"
+        name="Branch"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="39abd6ac-308d-4662-8f30-6ebe3b319fef"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBranch"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4cf0c3a8-c3fd-46f1-977c-04337ca69625"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3890790-3fce-430c-ba97-59477a61638d">
+                <propertyInstance
+                  Id="9a7cd59f-3054-462b-92ba-6ea6b05cc4b1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44d19f63-fd98-4839-9c0c-aeeb5588f329">
+                <propertyInstance
+                  Id="6a105665-874e-47a0-b8bc-9e3520346bc3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37b83365-0356-48a9-841a-822bca0c8b03">
+                <propertyInstance
+                  Id="b0794bd2-b7ee-4721-a66d-5c6697fd2d00"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13ba9fe4-d864-40bd-b0e7-4af28b054d94">
+                <propertyInstance
+                  Id="51c31b42-30eb-4fbc-a756-67a2deed7757"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd6d71bd-04e9-4714-b522-463a621efc46">
+                <propertyInstance
+                  Id="761314c6-b326-4d33-bfb9-a7bad6bbf0f8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="cce08a86-fa52-408d-bbdb-33bfe5931992"
+            isDerived="false"
+            sourceEndRoleName="Branch"
+            targetEndRoleName="HeadOffice"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d88508f3-59e5-4a97-9200-dbaee79b953a"
+              LastKnownName="HeadOffice"
+              LastKnownLocation="Package_1508.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7b87b035-a594-4590-b323-9fae2e06198e"
+                  name="Branch"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6e6b4c19-7630-4d08-b425-346bcc071183"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="59c3a994-bc12-406d-a658-e0d8f63c6e87"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a12bca94-f0de-4dc2-a9fc-705b9c3b01f8"
+                  name="HeadOffice"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4f34c86b-35cf-48de-81ae-88a88fa7de44"
+            name="address"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bd72fe31-491a-4e79-8eda-0d7f9c16fd6d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBranch Member%3Daddress"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e6421669-a62e-4c1b-8841-a383c8d81e20"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d86f9048-aea7-4299-a3b6-7f1b63d8a3c1">
+                    <propertyInstance
+                      Id="e40b9341-813f-4715-befa-d6eb455787e9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99fe4526-4c4e-4335-ab60-661c7ec5b49b">
+                    <propertyInstance
+                      Id="430dccc8-29c9-421c-bec5-4f9f0e368a97"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc60ef8a-f3fd-4dd9-8f82-467ca87d961d">
+                    <propertyInstance
+                      Id="37330614-4e3a-42e6-8e38-bfba6fce665e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccc6c548-77f8-45a8-b3ea-1045c25aa0fc">
+                    <propertyInstance
+                      Id="ba2096f6-5920-44ca-832f-2485adf17305"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d572c8ee-492d-4776-aee0-8e8af40555a4">
+                    <propertyInstance
+                      Id="a9995eb7-b757-40d6-b5cf-6e9a4b597fa8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ef6a6116-3a1c-47d0-a403-998a81dee48f"
+            name="manager"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="772026c0-10f9-4820-b514-b21869990f14"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBranch Member%3Dmanager"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="22736e71-5425-4f23-9fba-6b7ec03324b6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2b027d7-8b8b-40a9-afc5-ff45667203fe">
+                    <propertyInstance
+                      Id="4eb99e0a-e9db-4dd0-9844-e406ddf4c5d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e80f8ab6-07fb-47b6-82a3-8e4d4c4f5622">
+                    <propertyInstance
+                      Id="087204bf-3c99-49c9-97d8-54ff48ca099c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8c1aa7f-1b6a-423c-9029-71ec0cd59659">
+                    <propertyInstance
+                      Id="95aeda4b-370c-451f-8477-d2f6ef919e9d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b922372e-15a1-4470-87a3-58135a8a91b0">
+                    <propertyInstance
+                      Id="9149de80-0d33-462f-a541-05c5ef791287"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60de11ad-f52d-48c7-9f37-dbd7aec88991">
+                    <propertyInstance
+                      Id="87d3bdad-9a40-46b0-95ed-fc73296b5737"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9bf0c083-6557-4b42-8058-d54ee682ad5b"
+            name="Branch"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5f65c1bf-a25b-43a7-aa7a-c503b787260a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DBranch Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bfd18166-7169-434e-8e16-7d501c638bf2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db7e2515-7988-4199-8536-29cf1ef84c07">
+                    <propertyInstance
+                      Id="6a7f3d4c-e412-4545-9d28-cb2632716cc5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbab251f-e69d-4c25-94cc-ac9c3a70df17">
+                    <propertyInstance
+                      Id="cd33672d-5449-47fd-b73a-574b52853e9b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d6654dd-935c-4be6-91b0-286c19574961">
+                    <propertyInstance
+                      Id="b5484792-cf3f-4664-a68b-87ca8f4c11bc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db6c2e05-a065-41bb-acd0-7ed4fe74653c">
+                    <propertyInstance
+                      Id="7c95040d-5d59-42bd-9e36-da8b3c3841a9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4314db44-0e3f-4ff6-88e6-cedf2a256b00">
+                    <propertyInstance
+                      Id="78df85f9-a562-45a5-a9d6-c8979778d92c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc97ecb2-fae9-479c-84af-18c2f12dfe07">
+                    <propertyInstance
+                      Id="24af480b-2d9a-41d5-8b97-a2926a6a0452"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e6844025-c60a-4953-a947-89bdb579a27f"
+        name="Transaction"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="99da3c3c-c044-4bec-8270-5f31d203818b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DTransaction"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="81a5cc99-8f84-4647-808a-957c6809b56d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c6c7b3c-e6dc-45d3-bdef-132006aa5b30">
+                <propertyInstance
+                  Id="9973eb89-6bc9-4e57-8d23-493f84dd7170"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="336ef66f-ed59-4fed-83a3-d040171d3a5e">
+                <propertyInstance
+                  Id="627e6473-3f13-4b64-a083-1c7503df6adf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="01c87690-a3b0-4f9d-921d-de0de3656d7b">
+                <propertyInstance
+                  Id="57dbcea3-4b93-48d0-be9e-44c76a22316d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8cae7375-235c-4eab-893d-ff96d200f11f">
+                <propertyInstance
+                  Id="c8bdbbc2-8d1d-438f-9a71-493cd7e6233f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="71c4694b-b7ce-4ce6-a64f-50374f194145">
+                <propertyInstance
+                  Id="9f266a7c-124f-48a8-aedd-b2b65f2e2d55"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="944e9910-bfa9-433f-8a3f-37497679393f"
+            isDerived="false"
+            sourceEndRoleName="Transaction"
+            targetEndRoleName="BankAccount"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f1b7d372-3d88-4c4a-8fef-b54db55d28b3"
+              LastKnownName="BankAccount"
+              LastKnownLocation="Package_1508.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="78a6fa7b-7509-45da-bf49-429a498ff52b"
+                  name="Transaction"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="37b1a6bf-6c5f-431c-a619-9b63cc2d388f"
+                      name="Lower"
+                      value="0" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d7da19ed-fd66-4177-b42d-b99ef65b8b74"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7bc37f7c-d20b-4830-9f79-d9460d40d499"
+                  name="BankAccount"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="66f59fed-7a15-42f1-8a32-f5620663d56b"
+            name="amount"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d5836d0a-1a58-4656-9dcc-f83938aca483"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DTransaction Member%3Damount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="38565fe3-dd70-467b-b81b-9547e5a545b9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c7a298c-0c81-43a1-b39f-f2dbf8a308d3">
+                    <propertyInstance
+                      Id="3ddeea23-a762-4433-830f-a2228c395192"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ac4f74f-2c5b-4974-b337-d8bd33b0c720">
+                    <propertyInstance
+                      Id="29a6e224-6ffe-40c1-bf96-ef975a864448"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc9d577f-4868-4782-8289-bde71f15676a">
+                    <propertyInstance
+                      Id="e7d0e9e7-6b34-469e-a701-2a7108a0f954"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40f34008-6586-471c-b044-63391b7c6f64">
+                    <propertyInstance
+                      Id="09fffd3e-dead-48f2-bfce-e9b9609582a3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdf7e7f5-42ec-4710-8654-3f4858a81268">
+                    <propertyInstance
+                      Id="eca507ab-5447-4fe4-b47d-1a2e2ecf45d1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1508.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="61f0f949-a3d5-4b81-a05a-1e0b79d889e8"
+            name="Transaction"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="81a54135-507c-41b5-ba22-7c0ca1975e4e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DTransaction Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="299be658-9d2d-4d96-82c4-bfb967456f2c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22dd6956-b2c4-4af7-94db-d4faf2a3efbb">
+                    <propertyInstance
+                      Id="5dcda576-23e2-4194-be34-426f808396c3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="613d33fc-6470-40a2-b4e5-ef06a1660239">
+                    <propertyInstance
+                      Id="420d2038-be57-4311-8104-a1102cf32a14"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8081c915-b40f-498d-9d6c-8a7813b30bf5">
+                    <propertyInstance
+                      Id="d4820e20-dc0b-4e5e-94de-084a357a0583"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99c67223-d8e5-4608-8d36-e52e11235f6f">
+                    <propertyInstance
+                      Id="7195b22a-b237-4db7-b0c7-5160a642bd10"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63025330-746a-4360-b0de-45544479585a">
+                    <propertyInstance
+                      Id="250061b6-a511-420d-a091-bcf14b74ca72"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10f065c9-56f3-4fdc-9e73-1a6b5a9a61a1">
+                    <propertyInstance
+                      Id="cd2b5c93-663a-453b-8a01-d8fd7efa120e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d88508f3-59e5-4a97-9200-dbaee79b953a"
+        name="HeadOffice"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bfd40b4d-0dfd-415e-b9a7-5954cf946062"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DHeadOffice"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f39357d3-cd4e-4c5a-b7c2-8d8c686526ea"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c8e8f25-50d1-4531-be98-06fdd41166c7">
+                <propertyInstance
+                  Id="298d78b0-7a17-4c5a-823b-235649fcd19c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2a3b6e1-cc4c-4981-bbc2-c113b3813839">
+                <propertyInstance
+                  Id="3bc4ba11-6ec3-4f2a-8c0f-d659e33fd4a6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4163f392-6389-4e04-b00f-2c69e58f727e">
+                <propertyInstance
+                  Id="fae4a257-f8c3-4293-a03c-43cd1d3c3b90"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="64ea8924-7727-4488-8aca-5dd789a1dcaf">
+                <propertyInstance
+                  Id="1f4516a1-9a4b-476b-9a1a-20255c3eb5ab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e1ddf1b-be00-4cea-9ef0-1dac924532be">
+                <propertyInstance
+                  Id="0e2c8308-95ae-48ae-aa19-833e16900483"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="f78be5ce-c63e-4f78-b8d4-a145123a683b"
+            name="bankName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5945571e-daaa-43f9-8b62-36be7bab83ba"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DHeadOffice Member%3DbankName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b038b4cf-7bad-400b-9336-7ffa4cda59da"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc230981-d0a1-4536-834c-90e9c61ad3ca">
+                    <propertyInstance
+                      Id="1f8e297e-fd85-4e30-b863-b6b28e57c51f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dcb26c6-78e4-4931-9370-2415a0006a91">
+                    <propertyInstance
+                      Id="2e9c6faa-0a10-497d-9b1b-ffff439dc937"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80933863-e54a-4a46-9d34-34fa97758bb4">
+                    <propertyInstance
+                      Id="277e9e94-a40b-4fa1-b763-6056aa8fc4c7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d27e6234-8ad1-493f-8520-0fcf9f7f5cc0">
+                    <propertyInstance
+                      Id="4ed06812-7c13-4ad8-9db0-94eefd1b7c2a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57b6a551-8507-403f-82f5-f6374d9b32de">
+                    <propertyInstance
+                      Id="f9323857-65ed-4c88-8e55-29b45ee42680"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a6442382-e386-4b37-81af-e5bdcdcdc9fd"
+            name="address"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0ac83534-441b-4ce4-aecf-e370a9c3f848"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DHeadOffice Member%3Daddress"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f1b78c3-cd7f-4f7a-bb9d-d76583ad070a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6df8c82-5c61-4e92-9c57-afb0df6161db">
+                    <propertyInstance
+                      Id="6ce0caef-fa8c-4061-bc07-b17522d00712"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba3fce8e-32f4-4000-b579-6170c516c1bc">
+                    <propertyInstance
+                      Id="53106d28-3618-4f62-ac32-3ccfe30aafd1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="789ee7d9-1828-4f84-982e-7c6c46f1732d">
+                    <propertyInstance
+                      Id="60ccebb6-c114-4cb1-bc9e-5de0bf6103de"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2d638a6-2988-412c-8d43-54e4d8e1ecdd">
+                    <propertyInstance
+                      Id="720a4da0-43b2-4e14-8795-0ce192bfa0a4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6902b878-a740-4a99-afab-fa21203034dc">
+                    <propertyInstance
+                      Id="ba2a0e68-6811-4733-9cbd-52b35ee8fa27"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="BankAccount_Wk1_Final_UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9fdac762-3bb0-4067-a7da-6573ac6fd36a"
+            name="HeadOffice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e6332258-a472-4106-8878-c95d2c8950ca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DHeadOffice Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4c1ef668-03c5-4fcc-a0c0-99e9d55f76c7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="508efa00-db1c-4f23-84d8-d88cb23faa69">
+                    <propertyInstance
+                      Id="66971474-7824-4a78-bdc2-72211cc3096f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a79a3922-dc2c-4cb6-b4f6-edbb100559fe">
+                    <propertyInstance
+                      Id="cdcccfdd-7fa7-46ac-ad55-3725e52cfdd7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="272f8c66-9cc4-430a-83da-b0730c740542">
+                    <propertyInstance
+                      Id="daef47ce-3df9-413a-b7c3-919e3b414c99"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed149047-e1f1-4c21-9119-969a1af039a8">
+                    <propertyInstance
+                      Id="de97e5c5-a96b-427d-9fc3-cbc82696a852"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f96368b-1a8f-4265-874b-7e16c951daa4">
+                    <propertyInstance
+                      Id="0af2e685-d0b7-41e4-8583-434b1716d380"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb70d574-d047-442b-83d3-caa620f7da4d">
+                    <propertyInstance
+                      Id="955205af-da92-49df-970e-2d2d919fc364"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9e3a0cf1-818b-4423-9619-1b07c7c2e948"
+        name="CurrentAccount"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5d018763-312c-42b4-afde-ec6e04b7485b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCurrentAccount"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="62357cb8-b104-465a-8c82-f84006679fd8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4361b0d-7e68-4002-8bd3-f53598ca432e">
+                <propertyInstance
+                  Id="5ffb2278-0789-4541-85fb-cf7f112a996f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c93f9463-b5ce-477a-9b69-67608472737b">
+                <propertyInstance
+                  Id="f6d00ee7-b181-4736-8146-8652591f7d33"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="947d23fe-04b3-41a1-89ea-2f57841f78ce">
+                <propertyInstance
+                  Id="488e2ad0-f005-465e-85c5-9848f18370a8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1ef26b0-2a5f-44f4-a2f2-5a16d4296bd8">
+                <propertyInstance
+                  Id="65b822e5-3c39-41b9-a947-b0b3935fd6f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6634057d-106e-4633-8443-593fa4af240e">
+                <propertyInstance
+                  Id="b2140929-83dc-4228-80f3-7c5324af3486"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5cd0eaad-06c8-491c-86ea-8a67d352473a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f1b7d372-3d88-4c4a-8fef-b54db55d28b3"
+              LastKnownName="BankAccount"
+              LastKnownLocation="Package_1508.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="350ff3c8-4e36-4eb9-b72f-a6a2393e7d45"
+            name="calculateCharges"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="444ba647-98d8-4f6d-a431-ea7b01937678"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCurrentAccount Member%3DcalculateCharges"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72284ad3-29eb-4bc9-8dbc-869d2505e3ad"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39fb683a-7d08-47dc-af5d-525ad888ca91">
+                    <propertyInstance
+                      Id="9108f3f9-b081-491b-9a44-bc735dbf0d25"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0690e6a8-a477-466e-925b-ec031809e640">
+                    <propertyInstance
+                      Id="e6d2b020-da40-4dc7-ac41-e00297601312"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0018a166-5d06-45b1-bc7f-9d4229da3f46">
+                    <propertyInstance
+                      Id="9c59cef1-7a03-4c57-ad69-568f91e16242"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="799e9ff2-fb17-470c-805f-eb2cfe10c4c5">
+                    <propertyInstance
+                      Id="c44ebfdb-fb8d-480e-a526-db3cf039f01b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95d4605c-5f9f-4cf8-ae82-4f126c12dadc">
+                    <propertyInstance
+                      Id="4476db35-ef96-44ef-96e2-ea07f205a452"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da26cf2a-4420-49fe-a130-fbe849eeb01a">
+                    <propertyInstance
+                      Id="37b61c39-8830-4145-ac8c-f79131ef40d1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae03fc91-b204-4052-b9d0-9796808f0a33"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d24e8fa3-231a-4cf8-9c9c-329e008cb1ca"
+            name="calculateInterest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="00f63af4-a06b-4ba9-94d8-1d35e798862a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCurrentAccount Member%3DcalculateInterest"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d956efd-c401-45f0-8c2a-91f3fb343a64"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59095840-49b8-4571-b179-19ed855c5de6">
+                    <propertyInstance
+                      Id="1e017a64-d4f9-438f-a928-adeb7332a198"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eca2d4d7-83c0-4485-8034-602d461d6e9a">
+                    <propertyInstance
+                      Id="6b9f8ff4-9cd9-402c-82c9-1c5deeff4a6e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a63031f8-0bd3-483b-b839-91d72e4a1b64">
+                    <propertyInstance
+                      Id="f3d6a16b-f0f2-4a1a-ba96-d4e5aed915b8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32d680f7-3097-4ea0-b1a1-b5353ce43396">
+                    <propertyInstance
+                      Id="654be118-048f-43ad-8517-fb60ef210236"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="769ac4c0-f475-4e34-aee3-8e563dbe2de4">
+                    <propertyInstance
+                      Id="ad8b8396-0815-413a-8929-39dc2e091e5b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85b4430d-328a-419d-a6f6-2439c38f1e74">
+                    <propertyInstance
+                      Id="364c5dd2-7d71-46fe-9683-13ac0f7d3958"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="102c92a4-9f92-4753-9453-b51d28880399"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1475dfd6-4fb6-4874-bb43-84fdc96731b1"
+            name="CurrentAccount"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b05e547c-5f79-4d62-b66f-ef96dcf875be"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DCurrentAccount Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2fdef328-5ff5-4be0-8316-781b21db7c38"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdd86360-6bf0-4b32-b817-b4d8ac245abd">
+                    <propertyInstance
+                      Id="f3c7744d-37ad-45e8-a939-a3001e9a8270"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fd943c0-8155-4609-8cab-5934fb0aa910">
+                    <propertyInstance
+                      Id="1d2a765f-718b-4ff6-b3b5-3a3a4806bcc0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7a82e93-a0d0-4979-8bcd-30fface7dac1">
+                    <propertyInstance
+                      Id="b75a2d3a-df59-4a37-98d4-937974002057"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca884837-5b74-498a-b613-23b4a433a231">
+                    <propertyInstance
+                      Id="37e50472-b449-4bb6-a08e-fa76602295db"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18a2e6b6-d923-40b4-a12d-90c3d4f23c19">
+                    <propertyInstance
+                      Id="e49f63a2-d206-4d68-9655-47686dba84d8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f1d6ea1-3c87-4bff-a7fb-af165db2596e">
+                    <propertyInstance
+                      Id="d74fe938-47ff-497a-841b-fed2caee5074"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c52ad94d-acc1-42cf-9c1d-64717fa3c7d6"
+        name="SavingsAccount"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bfc40a0e-1f45-4b04-b335-b6f6fc54e981"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DSavingsAccount"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bc89e711-53b9-46a3-8ec6-242d72192b2a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b41ee839-af40-4020-a652-75afd3a49a7e">
+                <propertyInstance
+                  Id="5012e3c7-0ab7-4b52-9d19-05dff338a31d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c75ba80d-71c7-4033-a1c6-fcb32612c22e">
+                <propertyInstance
+                  Id="b117b178-0cfc-48b9-acf5-b96e5f22285d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65237ae1-b920-4b07-ad80-2daf4066892e">
+                <propertyInstance
+                  Id="6d3f6dc9-f928-4830-9358-6a3e311c59d2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b54aacd9-d209-4233-a42b-d2181e382d10">
+                <propertyInstance
+                  Id="2de07660-ffa6-421d-b1ea-2e20920637c6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d2d7f20-254c-42aa-a4d3-68903480f121">
+                <propertyInstance
+                  Id="64b097a2-e983-420f-aa43-38d15d3648e4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="7c5412d5-7171-415a-8f8e-396cabd62abb"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f1b7d372-3d88-4c4a-8fef-b54db55d28b3"
+              LastKnownName="BankAccount"
+              LastKnownLocation="Package_1508.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="748d35fe-6db5-47de-94b1-f60a0bf2dc8a"
+            name="calculateCharges"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="df7ea27e-d1c2-4d94-8ce4-42200b78e8aa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DSavingsAccount Member%3DcalculateCharges"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f7f786d-6e16-4f8f-9bff-37a27a9d2cf9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60c7c7e6-66f5-406b-af7c-6a56cb621d3f">
+                    <propertyInstance
+                      Id="6c840a2b-365c-4e76-8a9c-40d5ae941af8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1890ae46-c063-4690-bd13-11d8bc9704ab">
+                    <propertyInstance
+                      Id="910d10f0-a8c7-40a9-aaad-d302a344756a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76bf3913-11c3-4890-95a7-da80f3f8bbf2">
+                    <propertyInstance
+                      Id="1a584eaa-fb23-440c-88ba-29dba4107c31"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b1141ef-a043-4b86-8c3a-afac6b986188">
+                    <propertyInstance
+                      Id="b9954bff-2c3f-4f17-9f3e-e9a49f9100cc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a0cb1a0-983c-46e4-a383-9db6320fc943">
+                    <propertyInstance
+                      Id="e5bd8547-0f87-46ba-9584-986f63674c50"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba179f06-960a-4a1f-a0dc-6a3fa110c403">
+                    <propertyInstance
+                      Id="e6e0161d-358f-49cd-a8b7-dd9f097fb3b6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="37862fa3-6f65-4357-8bb2-e59b3f80c7e3"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b3eb1c13-9e56-411c-8c8a-8309430cd608"
+            name="calculateInterest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fba0b7a7-f738-42ad-91e9-e83257a40def"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DSavingsAccount Member%3DcalculateInterest"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a6176c1-789c-43e7-a6b1-09fe5a78e7ba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ab3aa11-f173-4724-8746-10ef514a5b8f">
+                    <propertyInstance
+                      Id="d083d79b-c029-4291-bc71-0421254a8bf4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="394e90ac-58ad-497e-b5da-14f93e20d1f5">
+                    <propertyInstance
+                      Id="358e22e8-22b7-40d7-82f9-833642301760"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84737875-d265-42b6-861c-17ef7737aa5f">
+                    <propertyInstance
+                      Id="35d8f1fc-5f3a-4372-86cc-710bb7045131"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="061e9d02-5b3b-4f3b-a661-1f5722fbf7ac">
+                    <propertyInstance
+                      Id="d77d3ace-35af-4b50-aa52-8ce97689a401"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ef6d8da-4cb0-418a-afee-b7849c9df609">
+                    <propertyInstance
+                      Id="8dfd9203-af6a-4e0c-9d48-acfd2618584a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19af7ac4-e09c-45b1-a583-ef6e55ed197d">
+                    <propertyInstance
+                      Id="f1ac5a8f-f995-4e8f-852b-e53f41aaf699"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1ec30b69-ab2f-4662-8b7f-a98d12e7034c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="066a93d7-2c3d-42cf-9783-bd6c9f6a3bac"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7c29443f-5e8e-4658-94db-e97df39b9e18"
+            name="SavingsAccount"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a6e0f05f-00df-4c5f-b1c6-be8d3fe1dedf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmrunkle_he%2FDropbox%2FVisual Studio%2FBankAccount_Wk1_Final%2FBankAccount_Wk1_Final%2Fbin%2FDebug%2FBankAccount_Wk1_Final.exe&quot; Namespace%3DBankAccount_Wk1_Final Type%3DSavingsAccount Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="79a33da1-e3c2-471d-a612-1df43bd52008"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee74e3a6-b91c-4216-9831-badc20e7a0a6">
+                    <propertyInstance
+                      Id="0051c19e-c06a-4ee9-b21e-2d502cf63b62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="080be304-8e45-4db6-8250-3c1ba8b69b8d">
+                    <propertyInstance
+                      Id="53b36799-e6c7-434e-8379-41b6196ebcea"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb3bf44c-d80c-42e7-8708-c86aa5d54ef5">
+                    <propertyInstance
+                      Id="67b1f314-7a91-486f-a6fc-55a7886cdc23"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9c01cea-7a0b-47e2-bf7d-0457cc299468">
+                    <propertyInstance
+                      Id="f21c77c3-0d02-4c37-a2da-8711cc264cba"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17412d1c-8f5e-481c-893b-94e4348cb8e9">
+                    <propertyInstance
+                      Id="b3975ea6-05cb-4163-84ce-6cc65fed72b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a273a378-54de-49f2-b30b-00b4110d1fe9">
+                    <propertyInstance
+                      Id="e364b4d9-6c0e-4802-a5cc-6893baf9bedc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
